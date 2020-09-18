@@ -1,0 +1,25 @@
+{
+  "name": "nebovk",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "dev": "nodemon ./src/index.ts"
+  },
+  "author": "xTCry [Vladislav Kh] (https://github.com/xTCry/)",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "@types/node": "^14.10.1",
+    "@vbots/cmenu": "^1.0.2",
+    "@vbots/primary-kit": "^0.0.1-alpha.1",
+    "@vbots/session-storage": "^1.0.1",
+    "@vk-io/hear": "^1.0.2",
+    "@vk-io/scenes": "^1.0.0",
+    "@vk-io/session": "^2.0.0",
+    "dotenv": "^8.2.0",
+    "vk-io": "^4.0.2"
+  }
+}
